@@ -55,3 +55,9 @@ p{
 #language #paper #idea{
     font-weight: bold;
 }
+body {
+    font-size: 1.5rem !important;
+}
+p{
+    font-size: 1.5rem !important;
+}
