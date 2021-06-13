@@ -65,16 +65,18 @@ footer {
   }
   
   #scrollToTopBtn {
+      position: -webkit-sticky;
+      
       align-content: center;
       margin-top: 1vh;
       margin-bottom: 2vh;
       float: right;
-    background-color: black;
+   
    
     border-radius:5vh;
-    color: white;
+    color: black !important;
     cursor: pointer;
-    
-    line-height: 4vh;
-    width: 8.2vh;
+    box-shadow:0 4px 8px 0 black;
+   /* line-height: 4vh;
+    /*width: 8.2vh;*/
   }
